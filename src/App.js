@@ -18,7 +18,7 @@ function App() {
         </>
         } />
         <Route path='/products/:id'  element={<Details/>} />
-        <Route path='*'  element={<PageNotFound/>} />
+        {/* <Route path='*'  element={<PageNotFound/>} /> */}
       </Routes>
       </BrowserRouter>
       {/* <Details/> */}
