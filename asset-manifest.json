@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Olx-App/static/css/main.e00ea0cb.css",
+    "main.js": "/Olx-App/static/js/main.acf669e2.js",
+    "static/js/787.08cccab5.chunk.js": "/Olx-App/static/js/787.08cccab5.chunk.js",
+    "static/media/saveImg.jpeg": "/Olx-App/static/media/saveImg.087c46c9ed42c2111e85.jpeg",
+    "static/media/border remove.png": "/Olx-App/static/media/border remove.69b59824e9b9a18a5444.png",
+    "static/media/app store.png": "/Olx-App/static/media/app store.afef08c8b0b5fbcc9eed.png",
+    "static/media/blueLogo.png": "/Olx-App/static/media/blueLogo.8ad8a26ba9ee8073c140.png",
+    "static/media/logoBlack.png": "/Olx-App/static/media/logoBlack.fe6d1537127fb29544ac.png",
+    "index.html": "/Olx-App/index.html",
+    "main.e00ea0cb.css.map": "/Olx-App/static/css/main.e00ea0cb.css.map",
+    "main.acf669e2.js.map": "/Olx-App/static/js/main.acf669e2.js.map",
+    "787.08cccab5.chunk.js.map": "/Olx-App/static/js/787.08cccab5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e00ea0cb.css",
+    "static/js/main.acf669e2.js"
+  ]
+}
