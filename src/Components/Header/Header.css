@@ -1,0 +1,227 @@
+/* .searchInput{
+    width: 500px;
+    height: 70px;
+
+    
+} */
+
+.head {
+    background-color: #EBEEEF;
+    padding: 10px;
+  }
+  
+  /* .content {
+    justify-content: space-between;
+  } */
+  
+  /* Small device styles */
+  @media only screen and (max-width: 600px) {
+    .motor,
+    .property {
+      display: none;
+    }
+  }
+  
+  /* Medium device styles */
+  @media only screen and (min-width: 601px) {
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .property,
+    .motor {
+      display: flex;
+      align-items: center;
+    }
+  
+    .login {
+      display: none;
+    }
+  
+    .sellBtn-con {
+      display: none;
+    }
+  }
+  
+  /* Common styles for both small and medium devices */
+  img {
+    max-width: 100%;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.ant-input-search-button {
+    /* width: 50px;
+    height: 150px; */
+    background-color: black;
+
+}
+.ant-input{
+    /* width: 150px; */
+    height: 40px;
+}
+.head{
+    background-color:#F7F8F8 ;
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.content {
+    overflow-y: auto;
+    padding: 5px 0 0 30px;
+    /* padding-top: 70px; */
+  }
+.main{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.all-content{
+    padding-top: 130px;
+}
+.login{
+    font-size: 19px;
+    font-weight: 650;
+}
+.login:hover{
+    border-bottom : 2px solid #002F34 ;
+    cursor: pointer;
+}
+.searchInput{
+    /* max-width: 700px; */
+    width: 500px;
+    min-width: 200px;
+    height: 50px;
+    border: 2px solid #002F34;
+    border-radius:  8px  0  0 8px ;
+
+}
+.search{
+    width: 45px;
+    height: 50px;
+    border: 2px solid #002F34;
+    background-color: #002F34;
+    color: #FFFFFF;
+    border-radius: 0 8px 8px 0 ;
+
+}
+.Navtab {
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 9px;
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+    white-space: nowrap; /* Prevent wrapping of items */
+  
+    /* Add more styles as needed */
+  }
+  
+  
+  
+  .Navtab div:hover,
+  .motor:hover,
+  .property:hover {
+    color: rgb(70, 225, 225);
+    cursor: pointer;
+  }
+  
+  /* Responsive styles for small screens */
+  @media only screen and (max-width: 600px) {
+    .Navtab {
+      gap: 10px;
+      padding: 5px;
+    }
+  }
+  
+.content i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:  ; */
+    background-color: #ECECEC;
+    border-radius: 50%;
+    /* margin-left: 5px; */
+}
+.content span {
+    margin-right: 7px;
+    font-size: 12px;    
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-title Nav.Link{
+
+    color: #9bb8bb;
+}
+.nav-title{
+    text-decoration: none;
+
+}
+.nav-title li:hover{
+    color: #002F34;
+    opacity: 0.5;
+}
+.sellBtn-con {
+    position: relative;
+    display: flex;
+}
+
+.sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Your existing styles */
+.nav-title {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 767px) {
+    .nav-title {
+      padding: 5px; /* Adjust padding for smaller screens */
+    }
+  
+    .nav-title li {
+      display: block;
+      margin-bottom: 5px; /* Adjust margin for smaller screens */
+    }
+  
+    .nav-title a {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  @media (max-width: 767px) {
+    .nav-title {
+      display: none;
+    }
+  }  

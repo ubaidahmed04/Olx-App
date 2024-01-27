@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer-icon {
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    border: 2px solid #8d8e8f;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8d8e8f;
+}
+
+.footer {
+    background-color: #EBEEEF;
+    width: 100%;
+    border-top: 3px solid #8d8e8f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.table-footer {
+    background-color: #EBEEEF;
+    border: none;
+    color: #002F34;
+    width: 100%;
+}
+
+.footer-btn {
+    width: 140px;
+    background-color: rgb(13, 11, 11);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.app-btn {
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btn .light {
+    font-size: 12px;
+    color: #EBEEEF;
+    padding-left: 6px;
+}
+
+.footer-btn p {
+    color: #EBEEEF;
+    margin: 0;
+}
+
+.fa-apple {
+    color: rgb(230, 219, 219);
+}
+
+.fa-google-play {
+    color: aqua;
+}
+
+.fa-app-store-ios {
+    color: #DA5F73;
+}
+
+.footer-bottom {
+    height: 50px;
+    width: 100%;
+    background-color: #002F34;
+    color: #EBEEEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom span {
+    font-weight: 700;
+    font-size: 15px;
+}
